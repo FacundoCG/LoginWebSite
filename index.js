@@ -2,7 +2,6 @@ let mail = 'facu@gmail.com'
 let password = 'facu123'
 
 function iniciar(){
-    alert(123)
     let miMail = document.getElementById('correo').value;
     let miPassword = document.getElementById('password').value;
     if (miMail == mail && miPassword == password){
